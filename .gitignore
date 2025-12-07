@@ -58,3 +58,48 @@ Packages/**/*.exe
 ##################################################
 *.apk
 *.aab
+
+##################################################
+# Unreal Engine
+##################################################
+
+# Binaries (compiled executables)
+Binaries/
+*.exe
+*.dll
+*.app
+*.dmg
+
+# Intermediate compilation files
+Intermediate/
+
+# Derived Data Cache (shader cache, etc.)
+DerivedDataCache/
+
+# Saved / autosaves, logs, temp
+Saved/
+*.log
+
+# IDE / project files
+*.sln
+*.VC.db
+*.xcodeproj
+*.opensdf
+*.sdf
+*.db
+.vs/
+
+# Unreal-specific build files
+*.pdb
+*.obj
+*.iobj
+*.idb
+*.ipdb
+*.suo
+*.user
+*.userprefs
+*.ncb
+*.sbr
+*.sdf
+*.sln
+*.opensdf
