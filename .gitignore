@@ -60,46 +60,24 @@ Packages/**/*.exe
 *.aab
 
 ##################################################
-# Unreal Engine
+# Unreal Engine - Ignore folders and files
 ##################################################
 
-# Binaries (compiled executables)
+# Ignore compiled binaries and builds
 Binaries/
-*.exe
-*.dll
-*.app
-*.dmg
+Build/
 
-# Intermediate compilation files
-Intermediate/
-
-# Derived Data Cache (shader cache, etc.)
+# Ignore intermediate and cache files
 DerivedDataCache/
-
-# Saved / autosaves, logs, temp
+Intermediate/
 Saved/
-*.log
 
-# IDE / project files
-*.sln
-*.VC.db
-*.xcodeproj
-*.opensdf
-*.sdf
-*.db
-.vs/
+# Ignore large textures / assets inside Content
+Content/Textures/LargeFolder/
+Content/Textures/LargeTexture1.png
+Content/Textures/LargeTexture2.png
 
-# Unreal-specific build files
-*.pdb
-*.obj
-*.iobj
-*.idb
-*.ipdb
-*.suo
-*.user
-*.userprefs
-*.ncb
-*.sbr
-*.sdf
-*.sln
-*.opensdf
+# Keep only essential project files
+Content/     # everything else in Content (small assets)
+Config/
+*.uproject
