@@ -40,18 +40,21 @@ UserSettings/
 *.userprefs
 
 ##################################################
-# Large files in Packages (ignore binaries, keep manifest.json)
+# Packages / Large files
 ##################################################
+# Ignore all binaries, demos and HDRP/URP packages
 Packages/**/*.dll
 Packages/**/*.unitypackage
 Packages/**/*.zip
 Packages/**/*.7z
 Packages/**/*.rar
 Packages/**/*.exe
-# keep only manifest.json and packages-lock.json
+# Keep only manifest.json and packages-lock.json
 !Packages/manifest.json
 !Packages/packages-lock.json
 
 ##################################################
 # OS specific
-##################
+##################################################
+*.apk
+*.aab
