@@ -1,1 +1,57 @@
+##################################################
+# General
+##################################################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.user
+*.suo
+*.swp
+*.bak
 
+##################################################
+# IDE / Visual Studio
+##################################################
+.vs/
+.vscode/
+.idea/
+
+##################################################
+# Unity folders to ignore
+##################################################
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+##################################################
+# Unity generated project files
+##################################################
+*.csproj
+*.unityproj
+*.sln
+*.pidb
+*.booproj
+*.svd
+*.userprefs
+
+##################################################
+# Large files in Packages (ignore binaries, keep manifest.json)
+##################################################
+Packages/**/*.dll
+Packages/**/*.unitypackage
+Packages/**/*.zip
+Packages/**/*.7z
+Packages/**/*.rar
+Packages/**/*.exe
+# keep only manifest.json and packages-lock.json
+!Packages/manifest.json
+!Packages/packages-lock.json
+
+##################################################
+# OS specific
+##################
