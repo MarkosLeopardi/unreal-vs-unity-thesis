@@ -58,26 +58,3 @@ Packages/**/*.exe
 ##################################################
 *.apk
 *.aab
-
-##################################################
-# Unreal Engine - Ignore folders and files
-##################################################
-
-# Ignore compiled binaries and builds
-Binaries/
-Build/
-
-# Ignore intermediate and cache files
-DerivedDataCache/
-Intermediate/
-Saved/
-
-# Ignore large textures / assets inside Content
-Content/Textures/LargeFolder/
-Content/Textures/LargeTexture1.png
-Content/Textures/LargeTexture2.png
-
-# Keep only essential project files
-Content/     # everything else in Content (small assets)
-Config/
-*.uproject
