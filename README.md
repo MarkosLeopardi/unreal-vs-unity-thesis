@@ -46,3 +46,14 @@ Both builds implement the same gameplay concepts and mechanics and were develope
 to compare workflows, performance characteristics, and the overall development
 experience between Unity and Unreal Engine.
 
+## Unreal Project Assets
+
+The `Content/` folder, which includes all textures, meshes, and blueprints, is too large to include in this repository.  
+You can download it here:
+
+- [Download Content.zip](https://drive.google.com/your-link-here)
+
+After downloading, unzip the folder and place it next to your `.uproject` file:
+
+
+
