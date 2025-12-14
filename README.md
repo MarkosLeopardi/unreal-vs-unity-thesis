@@ -51,7 +51,7 @@ experience between Unity and Unreal Engine.
 The `Content/` folder, which includes all textures, meshes, and blueprints, is too large to include in this repository.  
 You can download it here:
 
-- [Download Content.zip](https://drive.google.com/your-link-here)
+- [Download Content.zip](https://mega.nz/file/5Zs0RSYQ#eY9mP1enjL5DXLHLSlSK2sGuajNli6kiVj1vAezBSBM)
 
 After downloading, unzip the folder and place it next to your `.uproject` file:
 
